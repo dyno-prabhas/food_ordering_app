@@ -53,9 +53,6 @@
         @apply rounded-lg p-3 w-full text-base font-quicksand-semibold text-dark-100 border-b leading-5;
     }
 
-    .filter {
-        @apply px-6 py-3 rounded-full mr-2 shadow-sm shadow-black/10;
-    }
 
     .menu-card {
         @apply relative py-9 px-3.5 pt-24 flex items-center justify-end bg-white shadow-md shadow-black/10 rounded-3xl;
@@ -71,6 +68,10 @@
 
     .searchbar {
         @apply relative flex flex-row items-center justify-center w-full bg-white shadow-md shadow-black/10 rounded-full  font-quicksand-medium text-dark-100 gap-5;
+    }
+
+    .filter {
+        @apply px-6 py-3 rounded-full mr-2 shadow-sm shadow-black/10;
     }
 
     .tab-icon {
